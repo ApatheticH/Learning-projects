@@ -1,0 +1,37 @@
+let userName = '';
+let userQuestion = 'What color is air?';
+const randomNumber = Math.floor(Math.random() * 8)
+let eightBall = randomNumber
+// greeting
+userName ? console.log(`Hello, ${userName}!`) : console.log('Hello')
+// diplay quesion
+console.log(`${userQuestion} Good question ${userName}`)
+// responses
+switch (eightBall) {
+  case 1:
+    Console.log('It is certain')
+    break
+  case 2:
+    console.log('I have no idea')
+    break
+  case 3: 
+    console.log('Of course not')
+    break
+  case 4:
+    console.log('Probably')
+    break
+  case 5:
+    console.log('Absolutely!')
+    break
+  case 6:
+    console.log('No way')
+    break
+  case 7:
+    console.log('Of course')
+    break
+  case 8:
+    console.log('Probably not')
+    break
+  case 0:
+     console.log('Nope')
+      break;}
