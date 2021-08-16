@@ -1,0 +1,8 @@
+let raceNumber = Math.floor(Math.random() * 1000);
+let earlyAdult = false
+let runnerAge = 18
+if (earlyAdult && runnerAge > 18) {raceNumber += 1000}
+if (earlyAdult && runnerAge > 18) {console.log(`You will be racing at 9:30 AM. ${raceNumber}`)}
+else if (!earlyAdult && runnerAge > 18) {console.log(`You will be racing at 11AM. ${raceNumber}`)}
+else if (runnerAge < 18){console.log(`Youth registrants run at 12:30 pm. ${raceNumber}`)}
+else {console.log('Please procede to the registration desk.')}
